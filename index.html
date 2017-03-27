@@ -91,16 +91,21 @@
             <img src="assets/images/logo_150x150.png" alt="" />
             <p>  </p>
             <h2 class="title">Smash Browse</h2>
-            <p class="intro">A desktop app to automate your daily online activities. Smash Browse can do it all. Check accounts and status updates, pay bills and much much more. </p>
-            <div class="btns">
-                <a class="btn btn-cta-primary" href="http://www.google.com" target="_blank">Watch Demo</a>
-                <a class="btn btn-cta-primary" href="http://www.google.com" target="_blank">Download</a>
-            </div>
             <section id="videos">
+            <p class="intro">Automate your daily online activities. Check your social media, banking, and other accounts automatically. Download videos and images automatically.</p>
+
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/oiiqV3duZcQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+            <!--
+            <div class="btns">
+                <a class="btn btn-cta-primary" href="https://youtu.be/tLFRWLXY0cA" target="_blank">Drag and Drop Demo</a>
+                <a class="btn btn-cta-primary" href="https://youtu.be/oiiqV3duZcQ" target="_blank">Automation Demo</a>
+            </div>
+            -->
             <ul class="meta list-inline">
-                <a class="btn btn-cta-secondary" href="http://www.google.com" target="_blank">Gettings News Posts Demo</a>
-                <a class="btn btn-cta-secondary" href="http://www.google.com" target="_blank">Browsing Videos Demo</a>
-                <a class="btn btn-cta-secondary" href="http://www.google.com" target="_blank">Checking Prices Demo</a>
+                <a class="btn btn-cta-secondary" href="https://youtu.be/tLFRWLXY0cA" target="_blank">Drag and Drop Demo</a>
+                <a class="btn btn-cta-secondary" href="https://youtu.be/10LOugEb9es" target="_blank">App Macros Demo</a>
+                <a class="btn btn-cta-secondary" href="https://youtu.be/ANYvyEwltMY" target="_blank">User Macros Demo</a>
                 <!-- <li><a href="http://www.google.com" target="_blank">Getting News Posts</a></li> -->
                 <!-- <li><a href="http://www.google.com" target="_blank">Browsing Videos</a></li> -->
                 <!-- <li><a href="http://www.google.com" target="_blank">Checking Prices</a></li> -->
@@ -110,7 +115,7 @@
         <div class="social-media">
             <div class="social-media-inner container text-center">
                 <div class="container text-center">
-                <medium class="copyright">Life Hackers <i class="fa fa-heart"></i> Smash Browse</medium>
+                <medium class="copyright">browse everything  <i class="fa fa-thumbs-up"></i> </medium>
                 </footer>
             </div>
         </div>
@@ -121,8 +126,8 @@
         <div class="container">
             <h2 class="title text-center">What is Smash Browse?</h2>
             <p class="intro ">Smash Browse saves you from daily online chores by automating your Chrome web browser. <br/><br/>
-            Other Web Automation Tools blindly record your web actions, often identifying html elements explicitly by using XPath identifiers, CSS selectors, or element ids. This technique is unreliable as it breaks the recorded automation when the web page changes even in the most simplest of ways, such as when the element ids change. <br/><br/>
-            Smash Browse uses a new technique to capture more of the symantic meaning and intent behind your actions. Smash Browse identifies elements using only symantic information about the element, such as its text, and by using constraints to locate elements, such as its proximity to other elements. Because of this, Smash Browse automations are not tightly coupled to the implementation (xpath, css, ids) of the web page.</p>
+            Other Web Automation Tools blindly record your web actions, often identifying HTML elements explicitly by using XPath identifiers, CSS selectors, or element IDs. This technique is not robust as the identifiers soon become out of date when the web page is updated with different element identifiers. <br/><br/>
+            Smash Browse uses a new technique to capture more of the semantic meaning and intent behind your actions. Smash Browse identifies elements using only semantic information about the element, such as its text, and by using constraints to locate elements, such as its proximity to other elements. Because of this, Smash Browse automations are not tightly coupled to the implementation (XPath, CSS, IDs) of the web page.</p>
             <div class="row">
                 <div class="item col-md-4 col-sm-6 col-xs-12">
                     <div class="icon-holder">
@@ -130,7 +135,7 @@
                     </div>
                     <div class="content">
                         <h3 class="sub-title">Automate It All</h3>
-                        <p>Gather updates and info from your social media accounts. Scrape the web. Perform logic such as transfering money when accounts fall below a certain amount.</p>
+                        <p>Gather updates and info from your social media accounts. Scrape the web. Perform logic such as transferring money when accounts fall below a certain amount.</p>
                     </div><!--//content-->
                 </div><!--//item-->
                 <div class="item col-md-4 col-sm-6 col-xs-12">
@@ -148,7 +153,7 @@
                     </div>
                     <div class="content">
                         <h3 class="sub-title">Node Graph Oriented</h3>
-                        <p>The node graph interface provides a simple and flexible way to create automations. Many nodes are available to allow you to express your logic and automations.</p>
+                        <p>The node graph interface provides a simple and flexible way to create automation logic. Many interesting nodes are available to allow you to express your workflow and logic.</p>
                     </div><!--//content-->
                 </div><!--//item-->           
                 <div class="clearfix visible-md"></div>    
@@ -176,7 +181,7 @@
                     </div>
                     <div class="content">
                         <h3 class="sub-title">Smart Device Automation</h3>
-                        <p>Support for smart devices is currently offered through the firebase and mqtt nodes. Other more user friendly and device specific nodes are on the way.</p>
+                        <p>Support for smart devices is currently offered through the MQTT nodes. MQTT is a very popular protocol for smart device communication.</p>
                     </div><!--//content-->
                 </div><!--//item-->               
             </div><!--//row-->            
@@ -191,12 +196,11 @@
                 <li><i class="fa fa-check"></i> data is encrypted and kept exclusively on your machine, not in the cloud</li>
                 <li><i class="fa fa-check"></i> simple node graph interface</li>
                 <li><i class="fa fa-check"></i> nodes for scripting and expression like functionality</li>
-                <li><i class="fa fa-check"></i> nodes for control flow logic (for loops, if then)</li>
+                <li><i class="fa fa-check"></i> nodes for control flow logic (while loops, if, and then)</li>
                 <li><i class="fa fa-check"></i> nodes for browser automation</li>
-                <li><i class="fa fa-check"></i> nodes for firebase (google/nest) and mqtt</li>
+                <li><i class="fa fa-check"></i> nodes for communication over MQTT</li>
                 <li><i class="fa fa-check"></i> nodes for data processing</li>
                 <li><i class="fa fa-check"></i> touch capable</li>
-                <li><i class="fa fa-check"></i> android and IOS and OSX versions in the works</li>
             </ul>
         </div><!--//container-->
     </section><!--//features-->
@@ -211,9 +215,9 @@
                 <h3 class="sub-title text-center">Nodes</h3>
                 <img src="assets/gimp/node.png" alt="" width="25%" align="left" hspace="20" style = "border:10px solid #17baef;" />
                 <!-- <img src="assets/gimp/node.png" alt="" width="25%" style="display:block; margin-left: auto; margin-right: auto; border:3px solid #000099;" /> -->
-                <p>A node represents a task that Smash Browse will perform for you. A node will perform some type of computation on its inputs in order to produce some outputs. For example a node could add two numbers together. In this case the inputs are the two numbers and the output is the sum. (1+1=2) </p>
-                <p>The name of the node appears directly on the node. In this case we see that the name is "data".</p>
-                <p>A node shows its inputs as boxes and its outputs as upside down triangles. The data types that flow into an input or flow out of an output are modelled after javascript data types. The complete set of data types are: numbers, strings, booleans, objects and arrays.</p>
+                <p>A node represents a task that Smash Browse will perform for you. A node will perform some type of computation on its inputs in order to produce some outputs. For example, a script node could add two numbers together. In this case, the inputs are the two numbers and the output is the sum. (1+1=2) </p>
+                <p>The name of the node appears directly on the node. In this case, we see that the name is "data".</p>
+                <p>A node shows its inputs as boxes and its outputs as upside down triangles. The data types that flow into an input or flow out of an output are modeled after javascript data types. The complete set of data types are numbers, strings, booleans, objects, and arrays.</p>
             </div><!--//block-->
             <br/>
             <div class="block">
@@ -240,8 +244,8 @@
             <div class="block">
                 <h3 class="sub-title text-center">Viewing Outputs</h3>
                 <img src="assets/gimp/view_outputs.png" alt="" width="25%" align="left" hspace="20" style = "border:10px solid #17baef;" />
-                <p>After a node is cleaned, you can view the latest output values produced by the node. Nodes can output any of the usual data types: numbers, strings, boolean, objects and arrays. The user interface will allow you to dive into objects and arrays by double clicking on them.</p>
-                <p>You can also view the outputs of a dirty node. However the values will no longer be current or up to date. </p>
+                <p>After a node is cleaned, you can view the latest output values produced by the node. Nodes can output any of the usual data types: numbers, strings, boolean, objects, and arrays. The user interface will allow you to dive into objects and arrays by double clicking on them.</p>
+                <p>You can also view the outputs of a dirty node. However, the values will no longer be current or up to date. </p>
                 <p>The current node being viewed will be marked on the right with the letter "V".</p>
             </div><!--//block-->
             <br/>
@@ -249,98 +253,54 @@
             <div class="block">
                 <h3 class="sub-title text-center">Links</h3>
                 <img src="assets/gimp/link.png" alt="" width="25%" align="left" hspace="20" style = "border:10px solid #17baef;" />
-                <p>A link is used to direct output data from an output on an upstream node to an input on a downstream node. If the data through the link matches the <b>default value</b> of an input in terms of its structure and type, the data flowing through the link will get merged into the input's <b>default value</b> to produce the <b>final value</b>. Otherwise it will get ignored.</p>
-                <p>These are the rules that determine how the data from an upstream node merges into the <b>default value</b> of an input to produce the <b>final value</b>.</p>
-                <ul>
-                <li><p>If both types are either numbers, strings or booleans then the upstream value will override the downstream <b>default value</b>.</p></li>
-                <li><p>If both types are objects, the properties of the upstream object will override the properties of the same name on the downstream <b>default value</b>, if the property values have the same matching internal structures/types. If the property does not exist on the downstream <b>default value</b>, it will get added. </p></li>
-                <li><p>If both types are arrays, the first element of the <b>default value</b> will determine the structure and type of the elements that it will accept as overrides. If the <b>default value</b> is an empty array, then any array will be accepted and become the <b>final value</b>.</p></li>
-                <li><p>In all other cases, the upstream value has no effect. The <b>final value</b> will be the <b>default value</b> without modification.</p>
-                </ul>
+                <p>A link is used to direct output data from an output on an upstream node to an input on a downstream node. The data flowing through the link will be merged into the input's <b>default value</b> to produce the <b>final value</b>. Before merging, the type and internal structure of the upstream data is converted to the same type and internal structure of the <b>default value</b>. After which any internal properties in the <b>default value</b> with the same name as the properties in the upstream data get overridden with the upstream value. If the <b>default value</b> does not contain a corresponding property from the upstream data, it will be added in.</p>
             </div><!--//block-->
             </section>
             <br/>
             <div class="block">
-                <h3 class="sub-title text-center">Group Nodes</h3>
+                <h3 class="sub-title text-center">Groups</h3>
                 <img src="assets/gimp/group_node.png" alt="" width="25%" align="left" hspace="20" style = "border:10px solid #17baef;" />
                 <p>A group node is a node which contains another node graph inside itself. When you <b>dive</b> into a group node, you will see the contents of the group node. When you <b>surface</b> from a group you will see the node graph in which the group node exists.</p>
                 <p>Group nodes allow you to collapse a complex node graph into one node and to also define a strict interface to the logic contained within. The interface is represented by the inputs and outputs on the group node.</p>
                 <p>In order to create inputs or outputs on a group node, you will first need to dive into the group. Then create <b>Input Nodes</b> or <b>Output Nodes</b> respectively. Each Input Node or Output Node inside the group will appear as inputs or outputs respectively on the group node under the same names. </p>
-                <p>There are a few different types of group nodes. Each provides a specialized context for their nodes to operate in. They are <a class="scrollto" href="#data_group_nodes">data group nodes</a>, <a class="scrollto" href="#script_group_nodes">script group nodes</a> and <a class="scrollto" href="#web_group_nodes">web group nodes</a>.</p>
+                <p>There are a few different types of group nodes. Each provides a specialized context for their nodes to operate in. They are <a class="scrollto" href="#data_group_nodes">data group nodes</a>, <a class="scrollto" href="#script_group_nodes">script group nodes</a>, and <a class="scrollto" href="#web_group_nodes">web group nodes</a>.</p>
             </div><!--//block-->
-            <br/>
-            <section id="data_group_nodes">
-            <div class="block">
-                <h3 class="sub-title text-center">Data Group Nodes</h3>
-                <img src="assets/gimp/data_group.png" alt="" width="25%" align="left" hspace="20" style = "border:10px solid #17baef;" />
-                <p>The sole purpose of the Data Group Node is to encapsulate a node graph which manipulates data. As such, if you are inside a Data Group, you can only create nodes related to data creation, data modification, and control flow logic. In particular you will not be able to create nodes that belong inside the Web Group, because they require the use of the browser which only the Web Group provides.</p>
-                <p>Data manipulation nodes have no side effects. They are purely functional in that they take inputs into consideration and then produce outputs. As long as the inputs are the same they will always produce the same outputs.</p>
-                <p>To create nodes from inside a Data Group, simply right-click on empty space in the node graph. This will bring up a menu containing items to create nodes.</p>
-            </div><!--//block-->
-            </section>
-            <br/>
-            <section id="script_group_nodes">
-            <div class="block">
-                <h3 class="sub-title text-center">Script Group Nodes</h3>
-                <img src="assets/gimp/script_group.png" alt="" width="25%" align="left" hspace="20" style = "border:10px solid #17baef;" />
-                <p>The sole purpose of the Script Group Node is to allow the user to specify custom logic in the node graph. This custom logic functions just like a javascript expression or a script. </p>
-                <p>Users can specify their custom logic by setting the <b>default value</b> on the "script" input of the Script Group Node. This input is evaluated as javascript to compute the outputs. The input values are added to the script evaluation context under variables named after their input names. </p> 
-                <p>Note that any scripts you specify should be free of side effects. That is, given the same inputs it should always produce the same outputs. Smash Browse assumes that all nodes besides the web manipulation nodes are free of side effects.</p>
-                <p>If you are inside a Script Group, you can only create Input and Output Nodes. This defines the interface to the script, which essentially defines the input values made available to the script. Other nodes are not permitted because the Script Group Node's sole purpose is to evaluate its script.</p>
-                <p>To create nodes from inside a Script Group, simply right-click on empty space in the node graph. This will bring up a menu containing items to either create an Input Node or an Output Node.</p>
-            </div><!--//block-->
-            </section>
             <br/>
             <section id="web_group_nodes">
             <div class="block">
-                <h3 class="sub-title text-center">Web Group Nodes</h3>
+                <h3 class="sub-title text-center">Browser Groups</h3>
                 <img src="assets/gimp/web_group.png" alt="" width="25%" align="left" hspace="20" style = "border:10px solid #17baef;" />
-                <p>The sole purpose of the Web Group Node is to encapsulate nodes which manipulate the browser. Browser manipulation nodes manipulate the browser as a side effect. Unlike data manipulation nodes they are not purely functional. Given the same inputs, a browser manipulation node can produce different outputs. This is the main reason why other nodes are excluded from existing inside of Web Group Nodes. It allows us to encapsulate this functionally inpure piece of logic, into something that is purely functional. </p>
-                <p>When diving into a Web Group Node, a browser window will open automatically. Internal nodes will manipulate this browser as a side effect. When surfacing from inside a Web Group Node, the browser window will close automatically. This opening and closing of the browser is what resets the mutable state (side effects), so that the Web Group Node as a whole becomes purely functional, even though its internal nodes are not. </p>
-                <p>To summarize, when you are inside a Web Group, you can only create nodes related to web browser manipulation. In particular you won't be able to use control flow logic nodes. However you can simply output the data out of the Web Group Node through its outputs, and then operate on it inside a regular Data Group.</p>
-                <p>Unlike other group nodes, to create nodes from inside a Web Group, you will need to right-click inside the browser. This will bring up a menu containing items to create web manipulation nodes. The position of the right-click in the browser is important. It will be used to automatically set a number of input values on the nodes it creates. See the section on <a  class="scrollto" href="#automating_the_browser">Automating the Browser</a> for more details.</p>
+                <p>The Browser Group Node provides a browser management context for nodes which manipulate the browser.  When diving into a Browser Group Node, a browser window will open automatically. When surfacing from inside a Browser Group Node, the browser window will close automatically. All of the internal nodes can make use of this browser. </p>
+                <p>Unlike other nodes, to create nodes which use the browser you will need to right-click inside the browser. This will bring up a menu containing possible nodes to create. The position of the right-click in the browser will be used to automatically set a number of input values on the nodes it creates. See the section on <a  class="scrollto" href="#automating_the_browser">Automating the Browser</a> for more details.</p>
             </div><!--//block-->
             </section>
             <br/>
             <div class="block">
                 <h3 class="sub-title text-center">Posts</h3>
-                <p>A Post Node allows you to extract some data that is flowing through a link, and to post that data to a page inside of Smash Browse. This is similar to posting a status update on social media, except it's for yourself and only you can see it.</p>
-                <p>This allows you to verify that your automation completed successfully or to notify you when certain events of importance occur inside your node graph.</p>
-                <p>For example you can post bank account balances, recent price changes on items you're interested in, recent news posts or social media updates, etc.</p>
+                <p>A Post Node allows you to extract some data that is flowing through a link and to post that data to a page inside of Smash Browse. This is similar to posting a status update on social media, except it's for yourself and only you can see it.</p>
+                <p>This can be used to verify that your automation completed successfully or to notify you when certain events of importance occur inside your node graph.</p>
+                <p>For example, you can post bank account balances, recent price changes on items you're interested in, recent news posts or social media updates, etc.</p>
             </div><!--//block-->
             <br/>
             <div class="block">
                 <h3 class="sub-title text-center">JavaScript</h3>
-                <p>There are a couple of places where javascript can be used.</p>
-                <p>The first is when specifying a <b>default value</b> for an input. Any valid expression will work. A few examples follow.</p>
+                <p>Javascript is the language used to specify the script for our script nodes. Script nodes are very powerful, allowing users to essentially create brand new node types.</p>
+                <p>A script node only contains one input and one output. They are accessible in the scripting environment as "input" and as "output".</p>
+                <p>In the following example, the output's value property is being set to the sum of the input's x and y properties.</p>
                 <div class="code-block">
                     <pre><code class="language-javascript">
-        123 + 87
+        output.value = input.x + input.y;
                     </code></pre>
                 </div><!--//code-block-->
+                <p>When the script node is placed inside a "while" node or another looping node, the script will often need to share state between iterations. The scripting environment provides a context object which will hold any properties between iterations. In the following example, the script node counts how many times it loops and sets it as the output's value property. </p>
                 <div class="code-block">
                     <pre><code class="language-javascript">
-        {"alpha": 123, "gamma": "hello", "beta": true} 
-                    </code></pre>
-                </div><!--//code-block-->
-                <div class="code-block">
-                    <pre><code class="language-javascript">
-        [1, true, "hello", {"alpha": 123, "gamma": "hello"}, [2, 3] ]
-                    </code></pre>
-                </div><!--//code-block-->
-                <p>The second is when specifying the script for a Script Group Node. The Script Group Node allows you to use javascript to compute the output values on the node. All of the input values on the group are made available to the javascript environment. A few examples follow for a node with two inputs (named "input" and "input1") and one output value (named "output").</p>
-                <div class="code-block">
-                    <pre><code class="language-javascript">
-        var sum = input + input1;
-        set_output("output", sum);
-                    </code></pre>
-                </div><!--//code-block-->
-                <div class="code-block">
-                    <pre><code class="language-javascript">
-        var data = {};
-        data.alpha = input;
-        data.beta = input1;
-        set_output("output", data); 
+        if (context.count == undefined) {
+            context.count = 1
+        } else {
+            context.count += 1
+        }
+        output.value = context.count
                     </code></pre>
                 </div><!--//code-block-->
 
@@ -351,18 +311,18 @@
                 <h3 class="sub-title text-center">Automating the Browser</h3>
                 <p>These are the basic steps to automating the browser. Watching these <a class="scrollto" href="#videos">video demos</a> will likely make things much clearer.</p>
                 <ul>
-                    <li><p>To control the browser you'll first need to create a Web Group Node. Then you'll need to dive into it, as the web manipulation nodes can only be created inside Web Group Nodes.</p></li>
-                    <li><p>Once you dive into the Web Group you'll see a browser window open up automatically. There may be a popup in the browser telling you to wait, while it loads the first web page.</p></li>
-                    <li><p>We are now ready to create nodes. Unlike the Data Group where you right-click in the node graph to bring up a menu to create nodes, when you're inside a Web Group you right-click in the browser.</p></li>
-                    <li><p>The position of the right-click is significant as it allows Smash Browse to automatically determine and set the input values on the nodes that it creates for you. This makes the creation of nodes much quicker. Otherwise you'd need to manually edit each node to set appropriate values for the behavior you want, by yourself. </p></li>
-                    <li><p>Smash Browse uses a three step process to perform an action. You can consider these as three steps of indirection, compared to just manually performing the action in the web page (like clicking a link). However this indirection allows us to encode more of the symantic meaning of our actions, and makes our automations much more robust to web page changes. </p></li>
+                    <li><p>To control the browser you'll first need to create a Browser Group Node. Then you'll need to dive into it, to create browser automation nodes.</p></li>
+                    <li><p>Once you dive into the Browser Group you'll see a browser window open up automatically. Please wait while it loads the first web page.</p></li>
+                    <li><p>We are now ready to create nodes. Unlike the other groups where you right-click in the node graph to bring up a menu to create nodes when you're inside a Browser Group you right-click in the browser.</p></li>
+                    <li><p>The position of the right-click is significant as it allows Smash Browse to automatically determine and set the input values on the nodes that it creates for you. This makes the creation of nodes much quicker. Otherwise, you'd need to manually edit each node to set appropriate values for the behavior you want, by yourself. </p></li>
+                    <li><p>Note that newly created nodes will automatically be connected to the last selected node. This reduces the amount of time you'll spend linking up nodes. So make sure you select the node you want to link to before creating a node.</p></li>
+                    <li><p>There are 3 basic steps to performing actions in the browser. </p></li>
                         <ul> 
-                            <li><b>First</b>, you need to create a <b>Set of Elements</b> in the browser. This set can contain just one element or it can contain many elements. An element in Smash Browse is either an image, a piece of text, an input field, or a select dropdown. Once an element is in a set it become highlighted with a colored rectangular box around it. Menu items which create or modify sets will have the word, <b>Set</b>, in their name.</p></li>
-                            <li><b>Second</b>, you need to choose a single element or a set of elements to perform the next action on. This is done automatically when you right-click over an element to bring up the menu. A menu item which operates on single elements will use that element directly. While a menu item which operates on sets will operate on the entire set that the element belongs to. </p></li>
-                            <li><b>Third</b>, you need to choose what type of action you want to perform on the element or set. Typical set operations include actions like shifting the set in a certain direction. For example you may want to shift the set of images you're interested in on the left of the page, to those on the right. Typical element operations include things like clicking it, or extracting the text displayed on it.</p></li>
+                            <li><b>First</b>, you need to create a node which outputs data containing an array of elements in the browser or identify an upstream node which outputs the same. This array can contain just one element or it can contain many elements. An element in Smash Browse is either an image, a piece of text, an input field, or a select dropdown. Note that you can visualize the elements by feeding it into the Highlight Elements node.</p></li>
+                            <li><b>Second</b>, you will often need to isolate the elements you're actually interested in from the rest of the elements in the array of elements. To do this you can use any of the nodes which perform filtering operations on the array of elements. Isolate, prune, sort, join and remove are some common terms used in the names of these nodes.</p></li>
+                            <li><b>Third</b>, you need to feed these elements into a node which performs a browser action. Many nodes will only act on the first element in the array elements. For example, the MouseAction node will only click the first element. Other nodes like the download videos node will act on all the input elements.</p></li>
                         </ul> 
-                    <li><p>There are many ways to isolate elements and element sets before performing an action on an element. The most robust way however is to ensure that the element set has only one element in it before you perform an action on the element. This is because the ordering of elements may change in the set as the web page gets updated or rearranged at a later time. And using exta constraints to whittle down the set helps to make identifying the elements more robust.</p></li>
-                    <li><p>Usually the main goal of the logic in the Web Group, is to extract text or images and to output that through the outputs. This allows you to affect logic in other groups, like Data Groups. For example if you extract the balance in your bank account, you can compare it to another value and notify yourself through a post if it falls below that other value.</p></li>
+                    <li><p>By following the above tips, you will soon find yourself building extremely useful and powerful node graphs.</p></li>
                 </ul>
             </div><!--//block--> 
             </section>
@@ -380,32 +340,34 @@
                 </div><!--//info-->
                 <div class="cta-container">
                     <div class="speech-bubble">                    
-                        <p class="intro">Smash Browse is currently available in three versions. 
+                        <p class="intro">Smash Browse comes in two versions. 
                         <p><strong>Lite</strong>
                             <ul>
                                 <li>100% free</li> 
-                                <li>expires after 15 days</li>
+                                <li>does not expire</li> 
+                                <li>no ads</li>
+                                <li>maximum of 20 nodes per graph</li>
+                                <li>no parallel video downloads</li>
+                                <li>fixed download directory</li>
                             </ul>
                         </p> 
                         <p><strong>Pro</strong>
                             <ul>
-                                <li>$49.99</li>
-                                <li>never expires</li>
+                                <li>$59.99</li>
+                                <li>does not expire</li> 
+                                <li>no ads</li>
+                                <li>unlimited nodes per graph</li>
+                                <li>unlimited parallel video downloads</li>
+                                <li>customizable download directory</li>
                             </ul>
                         </p>
-                        <p><strong>Ultimate</strong>
-                            <ul>
-                                <li>starts at $498.50</li> 
-                                <li>prebuilt custom automations according to request</li>
-                                <li>never expires</li>
-                                <li>contact us directly for purchase</li>
-                            </ul>
-                        </p>
-                        <strong>Requirements:</strong>: Windows 64 bit, an interet connection and the latest Chrome browser. </p>
+                        <strong>Requirements:</strong>: Windows 64 bit, OS X, or macOS. The latest Chrome browser.</p>
                     </div><!--//speech-bubble-->
                     <div class="text-center">
-                        <p><a class="btn btn-cta-primary" href="https://gum.co/QbCCX/lite" target="_blank">Smash Browse LITE</a></p>
-                        <p><a class="btn btn-cta-primary" href="https://gum.co/tgctL" target="_blank">Smash Browse PRO</a></p>
+                        <p><a class="btn btn-cta-primary" href="./windows/smashbrowse.exe">LITE - windows 64bit</a></p>
+                        <p><a class="btn btn-cta-primary" href="./macos/smashbrowse.dmg">LITE - mac 64bit</a></p>
+                        <p><a class="btn btn-cta-primary" href="https://gum.co/tgctL" target="_blank">PRO - windows 64bit</a></p>
+                        <p><a class="btn btn-cta-primary" href="https://gum.co/RMzG" target="_blank">PRO - mac 64bit</a></p>
                         <!-- <p><strong><a href="https://gum.co/QbCCX/lite" target="_blank">Smash Browse LITE</a> </strong> </p> -->
                         <!-- <p><strong><a href="https://gum.co/tgctL" target="_blank">Smash Browse PRO</a> </strong> </p> -->
                     </div><!--//btn-container-->
@@ -419,16 +381,14 @@
         <div class="container">
             <div class="contact-inner">
                 <h2 class="title  text-center">Contact</h2>
-                <p class="intro  text-center">Please do not hesitate to contact us. <br/> We want to ensure you have the best experience with our products.</p>
+                <p class="intro  text-center">Please do not hesitate to contact us. </p>
                 <div class="author-message">                      
                     <div class="profile">
                         <img class="img-responsive" src="assets/images/logo_150x150.png" alt="" />
                     </div><!--//profile-->
                     <div class="speech-bubble">
-                        <h3 class="sub-title">Found a bug or want to reqeust a new feature?</h3>
-                        <p>Please submit your issues at:  <a href="https://github.com/smashbrowse/issues/issues" target="_blank">Smash Browse Issues</a> 
-                        <p>A free github account will be required to submit an issue. But this allows us to keep you updated on the progress of the bug or feature request.</p>
-                        <p>Here, you will also be able to view existing bugs or feature requests submitted by other users.</p>
+                        <h3 class="sub-title">Found a bug or want to request a new feature?</h3>
+                        <p>Please contact us directly below. In the future, we will have a bug and feature request site.</a> 
                     </div><!--//speech-bubble-->     
                     <div class="speech-bubble">
                         <h3 class="sub-title">Want to contact us directly?</h3>
@@ -456,7 +416,7 @@
     <!-- ******FOOTER****** --> 
     <footer class="footer">
         <div class="container text-center">
-            <small class="copyright">Life Hackers <i class="fa fa-heart"></i> Smash Browse</small>
+            <medium class="copyright">browse everything  <i class="fa fa-thumbs-up"></i></small>
         </div><!--//container-->
     </footer><!--//footer-->
      
